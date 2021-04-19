@@ -1,0 +1,18 @@
+button {
+  text-transform: capitalize;
+  min-height: 40px;
+  background-color: #3f51b5;
+  border: none;
+  color: #ffffff;
+  font-weight: 700;
+  padding: 0 24px;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.nav {
+  display: flex;
+  gap: 8px;
+}
